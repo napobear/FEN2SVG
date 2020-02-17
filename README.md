@@ -87,7 +87,7 @@ You are free!
 * **absolute to relative paths**: [SVG transformations by Peter Collingridge](http://petercollingridge.appspot.com/svg_transforms/),
 * https://github.com/Klowner/inkscape-applytransforms.
 
-## SVG template
+## SVG
 ### Why SVG?
 * Diagrams are **scalable**: the image can be resized infinitely without losing any quality.
 * Diagrams can be **customized**: you can design a template of your own (wood squares, another move indicator, ...).
@@ -95,19 +95,6 @@ You are free!
 * It is usable within **web-browser** and **EPUB**.
 * A vector graphic can be converted into another format (e.g. PNG) and serve as a clean reference.
 * You know exactly how items are draw.
-
-## How are the pieces aligned on their square?
-Because queen is the tallest piece, it is used as reference. Queen is centered on its square Other pieces align their
-bottom with the queen bottom.
-
-## Why not SVGZ?
-The goal is to keep FEN2SVG as simple as possible.
-
-SVGZ are compressed SVG files. Therefore, to create SVGZ, two steps are required:
-1. create the SVG (as it is currently the case),
-2. compress it (where a C library is needed).
-
-The good news is that you still can compress it by yourself, if needed.
 
 ### How is the base template structured?
 FEN2SVG uses a file where all the items are defined: template.svg.
@@ -121,7 +108,7 @@ There are two main parts:
   * move indicator.
 * the below part, where those defined items are used.
 
-## What is the square size?
+### What is the square size?
 Board is made of 64 squares. Each one measures 72 x 72.
 
 ### Which font is used in the base template (for coordinates)?
@@ -136,6 +123,20 @@ Of course, you can.
 Do absolutly not modify the first (`<svg`) and last line (`</svg>`), respect the definitions structure.
 
 If you think it is worth it, share the result of your work.
+
+### How are the pieces aligned on their square?
+Because queen is the tallest piece, it is used as reference. Queen is centered on its square Other pieces align their
+bottom with the queen bottom.
+
+### Why not SVGZ?
+The goal is to keep FEN2SVG as simple as possible.
+
+SVGZ are compressed SVG files. Therefore, to create SVGZ, two steps are required:
+1. create the SVG (as it is currently the case),
+2. compress it (where a C library is needed).
+
+The good news is that you still can compress it by yourself, if needed.
+
 
 ## Source code
 ### Why has C language been used for development?
