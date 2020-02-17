@@ -15,7 +15,9 @@ For example,
 
 gives
 
-![alt text](http://github.com/michael-i-f-george/FEN2SVG/blob/master/example.svg "example.svg")
+![SVG produced](https://github.com/michael-i-f-george/FEN2SVG/blob/master/example.svg "example.svg")
+
+
 
 
 ## How do I use it?
