@@ -13,7 +13,7 @@ For example,
 
 `rnb1kbnr/pppp1ppp/8/4p3/6Pq/5P2/PPPPP2P/RNBQKBNR w KQkq - 1 3`
 
-gives
+produces
 
 ![SVG produced](https://github.com/michael-i-f-george/FEN2SVG/blob/master/example.svg "example.svg")
 
