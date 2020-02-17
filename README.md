@@ -1,6 +1,5 @@
 # FEN2SVG
-Convert a file filled with chess positions (i.e. FEN) to chess diagrams (i.e. SVG format)
-
+Creates chess diagrams (in SVG) from a file containing chess positions (i.e. FEN strings).
 
 # Introduction
 
