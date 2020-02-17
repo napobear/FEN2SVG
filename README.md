@@ -11,9 +11,11 @@ A lot of diagrams can be generated in no time.
 
 For example, 
 
+`rnb1kbnr/pppp1ppp/8/4p3/6Pq/5P2/PPPPP2P/RNBQKBNR w KQkq - 1 3`
 
 gives
 
+![alt text](http://github.com/michael-i-f-george/FEN2SVG/blob/master/example.svg "example.svg")
 
 
 ## How do I use it?
