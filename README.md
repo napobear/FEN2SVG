@@ -73,7 +73,7 @@ You are free!
 # Implementation
 
 <details>
-<summary>Are you sure that you want to read about this?</summary>
+<summary>Are you sure that you want to read about this? :-)</summary>
 
 ## Tools used
 * **SVG editor**: Inkscape and Geany,
