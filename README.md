@@ -85,8 +85,8 @@ You are free!
 * **C validator**: [Splint](https://splint.org/),
 * **documentation editor**: Texmaker,
 * **absolute to relative paths**:
- * [SVG transformations by Peter Collingridge](http://petercollingridge.appspot.com/svg_transforms/),
- * https://github.com/Klowner/inkscape-applytransforms.
+  * [SVG transformations by Peter Collingridge](http://petercollingridge.appspot.com/svg_transforms/),
+  * https://github.com/Klowner/inkscape-applytransforms.
 
 ## SVG
 ### Why SVG?
