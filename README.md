@@ -78,14 +78,15 @@ You are free!
 ## Tools used
 * **SVG editor**: Inkscape and Geany,
 * **SVG cleaner**: SVGO,
-* **chessmen**: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chess_Pieces_Sprite.svg),
+* **chessmen**: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chess_Pieces_Sprite.svg), [Lichess](https://github.com/ornicar/lila/tree/master/public/piece/staunty),
 * **C editor**: Geany,
 * **C compilator**: GCC (Linux), MinGW (Windows),
 * **C debugger**: Valgrind, GDB,
 * **C validator**: [Splint](https://splint.org/),
 * **documentation editor**: Texmaker,
-* **absolute to relative paths**: [SVG transformations by Peter Collingridge](http://petercollingridge.appspot.com/svg_transforms/),
-* https://github.com/Klowner/inkscape-applytransforms.
+* **absolute to relative paths**:
+ * [SVG transformations by Peter Collingridge](http://petercollingridge.appspot.com/svg_transforms/),
+ * https://github.com/Klowner/inkscape-applytransforms.
 
 ## SVG
 ### Why SVG?
