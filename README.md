@@ -1,5 +1,5 @@
 # FEN2SVG
-Creates chess diagrams (in SVG) from a file containing chess positions (i.e. FEN strings).
+Creates very quickly chess diagrams (in SVG) from a file containing chess positions (i.e. FEN strings).
 
 # Introduction
 
@@ -23,10 +23,15 @@ produces
 
 1. Copy-paste FEN positions in a text file.
 2. Give this text file the .fen extension (e.g. mychesspositions.fen).
-3. `./fen2svg -bcm mychesspositions.fen`, where:
-  * `b` stands for borders,
-  * `c` stands for coordinates,
-  * `m` stands for move indicator.
+3. Launch it.
+     1. If you are using Linux: `./fen2svg -bcm mychesspositions.fen`, where
+        * `b` stands for borders,
+        * `c` stands for coordinates,
+        * `m` stands for move indicator.
+     2. If your are using Windows, in the command prompt: `fen2svg.exe -bcm mychesspositions.fen`, where
+        * `b` stands for borders,
+        * `c` stands for coordinates,
+        * `m` stands for move indicator.
 
 
 ## What does FEN means?
