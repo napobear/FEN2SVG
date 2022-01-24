@@ -28,7 +28,7 @@ produces
         * `b` stands for borders,
         * `c` stands for coordinates,
         * `m` stands for move indicator.
-     2. If your are using Windows, in the command prompt: `fen2svg.exe -bcm mychesspositions.fen`, where
+     2. If your are using Windows, in the command prompt: `fen2svg.exe -b -c -m mychesspositions.fen`, where
         * `b` stands for borders,
         * `c` stands for coordinates,
         * `m` stands for move indicator.
