@@ -18,23 +18,36 @@ You should have received a copy of the GNU General Public License
 along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+
+/* Compile source with
+ *      gcc testlist.c unsortedlinkedlist.c -o testlist
+ * Check for memory leaks with
+ *      gcc -g -o0 testlist.c unsortedlinkedlist.c -o testlist
+ *      valgrind -v --leak-check=full ./testlist
+ * Validate code with
+ *      splint unsortedlinkedlist.c testlist.c
+ * Debug code with GDB
+ *      gdb ./testlist
+*/
+
+
+
+
 #include "unsortedlinkedlist.h"
 
 #define NULL 0
 
 int main() {
 
-    UnsortedList myList;
-    myList.First=NULL;
-    myList.Last=NULL;
+    UnsortedList* myList = createEmptyList();
 
-    addToList(&myList, "apple");
-    addToList(&myList, "banana");
-    addToList(&myList, "cherry");
+    appendToList(myList, "apple");
+    appendToList(myList, "banana");
+    appendToList(myList, "cherry");
 
-    modifyItemValue(myList.Last, "clementine");
+    modifyItemValue((*myList).Last, "clementine");
 
-    displayList(myList);
+    displayList(*myList);
     
     freeList(&myList);
 	
