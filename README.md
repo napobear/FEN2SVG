@@ -24,15 +24,28 @@ produces
 1. Copy-paste FEN positions in a text file.
 2. Give this text file the .fen extension (e.g. mychesspositions.fen).
 3. Launch it.
-     1. If you are using Linux: `./fen2svg -bcm mychesspositions.fen`, where
+     1. If you are using Linux: `./fen2svg -bcmp mychesspositions.fen`, where
         * `b` stands for borders,
         * `c` stands for coordinates,
-        * `m` stands for move indicator.
-     2. If your are using Windows, in the command prompt: `fen2svg.exe -b -c -m mychesspositions.fen`, where
+        * `m` stands for move indicator,
+        * `p` stands for the use of the FEN string as file name (instead of "dia00001.svg" for example).
+     2. If your are using Windows, in the command prompt: `fen2svg.exe -b -c -m -p mychesspositions.fen`, where
         * `b` stands for borders,
         * `c` stands for coordinates,
-        * `m` stands for move indicator.
+        * `m` stands for move indicator,
+        * `p` stands for the use of the FEN string as file name (instead of "dia00001.svg" for example).
 
+
+## What file do I need to download?
+
+The following fourth must be enough:
+     * fen2svg.c,
+     * linkedlist.c,
+     * linkedlist.h,
+     * example.fen.
+
+Compile them with:
+`gcc fen2svg.c linkedlist.c -o fen2svg`
 
 ## What does FEN means?
 
@@ -149,11 +162,11 @@ The good news is that you still can compress it by yourself, if needed.
 C language is fast, lightweight and portable, moreover no graphical user interface is needed. The main drawback is
 precisly the lack of an interface.
 ### How to compile for Linux?
-`gcc fen2svg.c unsortedlinkedlist.c -o fen2svg`
+`gcc fen2svg.c linkedlist.c -o fen2svg`
 
 ### Detecting memory leaks under Linux
 Follow these two steps, in that order:
-1. `gcc -g -o0 unsortedlinkedlist.c fen2svg.c -o fen2svg`
+1. `gcc -g -o0 linkedlist.c fen2svg.c -o fen2svg`
 2. `valgrind -v --leak-check=full ./fen2svg`
 
 [GDB (GNU Debugger)](https://www.gnu.org/software/gdb/) could also prove useful.
