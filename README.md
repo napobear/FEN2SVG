@@ -38,13 +38,13 @@ produces
 
 ## What file do I need to download?
 
-The following fourth must be enough:
-     * fen2svg.c,
-     * linkedlist.c,
-     * linkedlist.h,
+The following fourth must be enough:  
+     * fen2svg.c,  
+     * linkedlist.c,  
+     * linkedlist.h,  
      * example.fen.
 
-Compile them with:
+Compile them with:  
 `gcc fen2svg.c linkedlist.c -o fen2svg`
 
 ## What does FEN means?
