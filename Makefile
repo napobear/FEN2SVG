@@ -1,17 +1,14 @@
 HEADERS = linkedlist.h
 OBJECTS = fen2svg.o linkedlist.o
 
-default: fen2svg
+all: fen2svg
 
 %.o: %.c $(HEADERS)
-	gcc -c $< -o $@
+	gcc -g -c $< -o $@
 
 fen2svg: $(OBJECTS)
-	gcc $(OBJECTS) -o $@
-
-testlist: testlist.o unsortedlinkedlist.o
-	gcc testlist.c unsortedlinkedlist.c -o testlist
+	gcc -g $(OBJECTS) -o $@
 
 clean:
 	-rm -f *.o
-	-rm -f fen2svg testlist
+	-rm -f fen2svg testlist unsortedlinkedlist
