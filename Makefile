@@ -9,6 +9,9 @@ default: fen2svg
 fen2svg: $(OBJECTS)
 	gcc $(OBJECTS) -o $@
 
+testlist: testlist.o unsortedlinkedlist.o
+	gcc testlist.c unsortedlinkedlist.c -o testlist
+
 clean:
-	-rm -f $(OBJECTS)
-	-rm -f program
+	-rm -f *.o
+	-rm -f fen2svg testlist
