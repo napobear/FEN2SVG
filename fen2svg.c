@@ -955,7 +955,7 @@ int main(int argc, char *argv[]) {
     /* 3 - READ INPUT FEN STRINGS. */
     LinkedList* lstFEN = createEmptyList();
     
-    if (enuInputMode = FILE_MODE) {
+    if (enuInputMode == FILE_MODE) {
         /* Get FEN strings from one or several files. */
         ListItem* lstCurrent = (*lstArgument).First;
         while(lstCurrent) {
