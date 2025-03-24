@@ -8,7 +8,7 @@
             d="M0 0h72v72H0V0" fill="#ffce9e" />
 
         <path id="borders"
-            d="M.25.25h577.5v577.5H.25V.25" stroke-width=".5" fill="none" stroke="#000" />
+            d="M.25.25h577.5v577.5H.25V.25" stroke-width="2.5" fill="none" stroke="#000" />
 
         <g id="whitepawn">
             <path stroke-dashoffset="10" stroke-linecap="round" stroke-width="2.4" stroke="#000" fill="#fff" d="M36 14.204a6.402 6.402 0 0 0-5.15 10.2c-3.122 1.795-5.25 5.14-5.25 9a10.352 10.352 0 0 0 3.85 8.05c-4.799 1.694-11.85 8.875-11.85 21.55h36.8c0-12.675-7.051-19.856-11.85-21.55a10.352 10.352 0 0 0 3.85-8.05c0-3.86-2.128-7.205-5.25-9a6.402 6.402 0 0 0-5.15-10.2" />
