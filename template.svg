@@ -8,7 +8,7 @@
             d="M0 0h72v72H0V0" fill="#ffce9e" />
 
         <path id="borders"
-            d="M.25.25h577.5v577.5H.25V.25" stroke-width="2.5" fill="none" stroke="#000" />
+            d="M.25.25h577.5v577.5H.25V.25" stroke-width="2" fill="none" stroke="#000" />
 
         <g id="whitepawn">
             <path stroke-dashoffset="10" stroke-linecap="round" stroke-width="2.4" stroke="#000" fill="#fff" d="M36 14.204a6.402 6.402 0 0 0-5.15 10.2c-3.122 1.795-5.25 5.14-5.25 9a10.352 10.352 0 0 0 3.85 8.05c-4.799 1.694-11.85 8.875-11.85 21.55h36.8c0-12.675-7.051-19.856-11.85-21.55a10.352 10.352 0 0 0 3.85-8.05c0-3.86-2.128-7.205-5.25-9a6.402 6.402 0 0 0-5.15-10.2" />
@@ -123,7 +123,7 @@
             <path stroke-linejoin="round" stroke-linecap="round" stroke="#fff" fill="none" d="M18.45 52.802c8.8-3.2 24.8-3.2 33.6 0" />
             <path stroke-linejoin="round" stroke-linecap="round" stroke="#fff" fill="none" d="M51.25 46.402s13.6-6.4 9.642-15.445c-6.207-9.36-20.842-2.955-24.842 7.445l.02 3.355-.02-3.355c-4-10.4-20.15-16.805-24.805-7.445-3.995 9.045 7.759 14.4 7.759 14.4" />
         </g>
-        
+
         <path id="coordinate1"
             d="M16.9 45.852h5.639V26.387l-6.135 1.23v-3.144l6.1-1.23h3.453v22.61h5.64v2.905H16.898l.002-2.906" />
         <path id="coordinate2"

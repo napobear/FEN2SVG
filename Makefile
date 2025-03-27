@@ -22,6 +22,7 @@ dist: $(PROGRAM)
 
 clean:
 	-rm -f *.o
+	-rm -f dia?????.svg
 	-rm -f $(PROGRAM)
 	-rm -f $(PROGRAM)-$(VERSION).tgz
 	-rm -f $(PROGRAM)-$(VERSION)/*
